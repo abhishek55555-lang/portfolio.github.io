@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Abhishek Timmanagoudar</title>
-    <!-- Include Font Awesome for icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Abhishek Timmanagoudar - Portfolio</title>
     <style>
+        /* General Styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f9;
             color: #333;
         }
 
@@ -20,41 +19,74 @@
             color: white;
             padding: 20px 10px;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
 
-        h1 {
+        header h1 {
             margin: 0;
             font-size: 2.5em;
         }
 
-        h2 {
-            color: #4CAF50;
-            margin-bottom: 15px;
-            font-size: 1.8em;
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
 
-        .container {
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 15px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 50px 20px;
             width: 90%;
             margin: auto;
-            padding: 20px;
-            overflow: hidden;
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #4CAF50;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
         }
 
         ul {
             list-style: none;
             padding: 0;
-            margin: 0;
         }
 
         ul li {
             margin: 10px 0;
-            display: flex;
-            align-items: center;
         }
 
         a {
-            text-decoration: none;
             color: #4CAF50;
+            text-decoration: none;
             font-weight: bold;
         }
 
@@ -64,124 +96,60 @@
 
         .icon {
             margin-right: 10px;
-            font-size: 1.2em;
-            color: #4CAF50;
-        }
-
-        section {
-            margin-bottom: 40px;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .project {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 15px;
-            background: #f9f9f9;
-        }
-
-        blockquote {
-            font-size: 1.2em;
-            color: #555;
-            margin: 20px 0;
-            padding-left: 20px;
-            border-left: 4px solid #4CAF50;
-            font-style: italic;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background-color: #4CAF50;
-            color: white;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Abhishek Timmanagoudar</h1>
-        <p>Tech Enthusiast | Problem Solver | Future Innovator</p>
-    </header>
 
-    <div class="container">
-        <!-- About Section -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                Hi! I am a student pursuing a BTech in Computer Science (AI) from KLETCH University, Belgaum. 
-                My SRN is <strong>02FE23BCI024</strong>. This portfolio showcases my projects and skills, along with a glimpse of my academic journey.
-            </p>
-        </section>
+<header>
+    <h1>Abhishek Timmanagoudar</h1>
+</header>
 
-        <!-- Projects Section -->
-        <section id="project">
-            <h2>🛠️ Projects</h2>
-            <div class="project">
-                <h3><i class="fas fa-train icon"></i> Smart Train Transportation System</h3>
-                <p>
-                    Developed a web app with real-time scheduling using <strong>React.js</strong> and <strong>Node.js</strong>. 
-                    Focused on user-friendly design and efficient algorithms for seamless booking.
-                </p>
-            </div>
-            <div class="project">
-                <h3><i class="fas fa-globe icon"></i> Portfolio Website</h3>
-                <p>
-                    Designed a responsive personal portfolio using <strong>HTML, CSS, and JavaScript</strong>.
-                </p>
-            </div>
-        </section>
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>🚀 Skills</h2>
-            <ul>
-                <li><i class="fas fa-code icon"></i> Programming Languages: C++, Python, JavaScript</li>
-                <li><i class="fas fa-tools icon"></i> Frameworks & Tools: React.js, Node.js</li>
-                <li><i class="fas fa-database icon"></i> Specialties: Data Structures and Algorithms, Web Development</li>
-            </ul>
-        </section>
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hi! I am a student pursuing a BTech in Computer Science (AI) from KLETCH University, Belgaum. 
+        My SRN is <strong>02FE23BCI024</strong>. This portfolio showcases my 3rd semester project under the guidance of 
+        <strong>Priyanka Gavde Ma'am</strong>, the course instructor for Design and Analysis of Algorithms.
+    </p>
+</section>
 
-        <!-- Portfolio Details Section -->
-        <section id="portfolio-details">
-            <h2>Portfolio Details</h2>
-            <dl>
-                <dt>Course Name</dt>
-                <dd>Algorithmic Problem Solving</dd>
-                <dt>Course Code</dt>
-                <dd>CS301</dd>
-                <dt>Name</dt>
-                <dd>Abhishek Timmanagoudar</dd>
-                <dt>SRN</dt>
-                <dd>02FE23BCI024</dd>
-                <dt>Course Instructor</dt>
-                <dd>Dr. Priyanka Gavde</dd>
-                <dt>University</dt>
-                <dd>KLETCH University, Belgaum</dd>
-                <dt>Portfolio Topic/Domain</dt>
-                <dd>Google</dd>
-            </dl>
-        </section>
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Smart Train Transportation System:</strong> Built a smart train transportation application that utilizes advanced algorithms and data structures. The project offers booking and navigation features for both user and admin purposes.</li>
+        <li><strong>Portfolio Website:</strong> Developed a responsive personal portfolio using HTML, CSS, and JavaScript.</li>
+    </ul>
+</section>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>🌐 Find Me Online</h2>
-            <ul>
-                <li><i class="fab fa-github icon"></i><a href="https://github.com/your-github-username" target="_blank">GitHub</a></li>
-                <li><i class="fab fa-linkedin icon"></i><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
-            </ul>
-        </section>
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming: C++, Python, JavaScript</li>
+        <li>Frameworks: React.js, Node.js</li>
+        <li>Specialties: Data Structures and Algorithms, Web Development</li>
+    </ul>
+</section>
 
-        <!-- Quote -->
-        <blockquote>
-            “The only way to do great work is to love what you do.” – Steve Jobs
-        </blockquote>
-    </div>
+<section id="contact">
+    <h2>Contact</h2>
+    <ul>
+        <li>Email: <a href="mailto:abhishektgoudar@gmail.com">abhishektgoudar@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
+        <li>GitHub: <a href="https://github.com/your-github-username" target="_blank">GitHub</a></li>
+    </ul>
+</section>
 
-    <footer>
-        <p>&copy; 2025 Abhishek Timmanagoudar. All Rights Reserved.</p>
-    </footer>
+<footer>
+    <p>&copy; 2025 Abhishek Timmanagoudar. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
