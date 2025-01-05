@@ -1,86 +1,145 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Include Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
 
-        <!--==================== UNICONS ====================-->
-        
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="">
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
 
-        <title>Responsive Portfolio Website</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            
-        </header>
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                
-            </section>
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            overflow: hidden;
+        }
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
 
-            </section>
+        ul li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
 
-            </section>
+        a:hover {
+            text-decoration: underline;
+        }
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
+        .icon {
+            margin-right: 10px;
+            font-size: 1.2em;
+            color: #4CAF50;
+        }
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-            </section>
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+        .project {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            background: #f9f9f9;
+        }
 
-            </section>
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ABHISHEK TIMMANAGOUDAR - Portfolio</h1>
+    </header>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi! I am a student pursuing a BTech in Computer Science (AI) from KLETCH University, Belgaum. 
+                My SRN is <strong>02FE23BCI024</strong>, and this portfolio showcases my 3rd semester project under the guidance of <strong>Priyanka Gavde Ma'am</strong>, the course instructor for Design and Analysis of Algorithms.
+            </p>
+        </section>
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
+        <!-- Projects Section -->
+        <section id="project">
+            <h2>Project</h2>
+            <div class="project">
+                <h3><i class="fas fa-train icon"></i> Smart Train Transportation System</h3>
+                <p>
+                    Built a smart train transportation application that utilizes advanced algorithms and data structures.
+                    The project offers booking and navigation features for both user and admin purposes.
+                </p>
+            </div>
+        </section>
 
-            </section>
-        </main>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fas fa-code icon"></i> C++, HTML, CSS</li>
+                <li><i class="fas fa-terminal icon"></i> Data Structures and Algorithms</li>
+            </ul>
+        </section>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-         
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li><i class="fab fa-linkedin icon"></i><a href="www.linkedin.com/in/abhishek-t-a29087">LinkedIn</a></li>
+                <li><i class="fas fa-envelope icon"></i><a href="mailto:abhishektgoudar@gmail.com">abhishektgoudar@gmail.com</a></li>
+                <li><i class="fas fa-phone-alt icon"></i><a href="tel:+91"></a></li>
+            </ul>
+        </section>
+    </div>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
-
-        <!--==================== MAIN JS ====================-->
-        <script src=""></script>
-    </body>
+    <footer>
+        <p>&copy; 2025 Abhishek Timmanagoudar. All Rights Reserved.</p>
+    </footer>
+</body>
 </html>
