@@ -1,8 +1,8 @@
-<h1 align="center">Hey there 👋, I'm Abhishek Timmanagoudar </h1>
+<h1 align="center">Hey there 👋, I'm Abhishek Timmanagoudar</h1>
 
 ###
 
-<h3 align="left">👩‍💻  About Me</h3>
+<h3 align="left">👩‍💻 About Me</h3>
 
 ###
 
@@ -11,6 +11,11 @@
   - 📚 I'm currently learning CS(AI) <br>
   - ⚡ In my free time I play with snake 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height="20" alt="Python logo" />
+</p>
+
+<p align="left">
+  🌐 Check out my portfolio: 
+  <a href="https://abhishek55555-lang.github.io/portfolio.github.io/" target="_blank">My Portfolio</a>
 </p>
 
 ###
